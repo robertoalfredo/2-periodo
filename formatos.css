@@ -1,0 +1,60 @@
+
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0; /*o PAdding adiciona o espaçamento superior e inferior*/
+}
+/*Definindo a largura e a altura da logotipo*/
+.logo { 
+    width: 50px; 
+    height: 50px;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0; /*o PAdding adiciona o espaçamento superior e inferior*/
+}
+
+header .container {
+    display: flex; /*Configura o container como flexível, permitindo organizar os elementos na horizontal*/
+    align-items: center; /*Alinha verticalmente os elementos ao centro*/
+    justify-content: space-between; /*Distribui o espaço uniformemente, mantendo logo e menu nas extremidades*/
+    padding: 0 20px;
+}
+
+header nav ul {
+    list-style: none;/*Remove as bolinhas da lista*/
+    display: flex; /*Define o espalo entre os links*/
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main{
+    display: flex; 
+    justify-content: center; /*Centraliza o conteúdo horizontal e verticalmente*/
+    align-items: center; 
+    flex-direction: column;
+    padding: 20px;
+    min-height: 60vh;
+    background-color: #f9f9f9;
+}
+
+footer{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
