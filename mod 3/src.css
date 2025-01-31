@@ -1,0 +1,10 @@
+src/
+├── controle/
+│   ├── ControleEditora.ts
+│   └── ControleLivros.ts
+├── modelo/
+│   ├── Editora.ts
+│   └── Livro.ts
+├── LivroDados.js
+├── LivroLista.js
+└── App.tsx
